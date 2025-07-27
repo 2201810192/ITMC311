@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#986AA8"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/myTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Background Processing"
+        android:textColor="#090909"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/label1"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/myTextView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="203dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="#090909"
+        android:text="1) Not using threads" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/label1"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="buttonClick"
+        android:text="PRESS ME" />
+
+    <TextView
+        android:id="@+id/label2"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="93dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="#090909"
+        android:text="2) Using threads" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/label2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="buttonClickWithThread"
+        android:text="PRESS ME" />
+
+</RelativeLayout>

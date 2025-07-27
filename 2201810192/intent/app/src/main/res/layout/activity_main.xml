@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/background_color"
+    android:padding="16dp">
+
+    <!-- تغيير في الحجم و اللون -->
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/google_chrome_icon_f513" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Google Chrome"
+        android:textStyle="bold"
+        android:textSize="45dp"
+        android:textColor="@color/google_yellow"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/open_web_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:padding="12dp"
+        android:text="       Open       "
+        android:textColor="@color/background_color"
+        android:textSize="25sp" />
+
+</LinearLayout>
