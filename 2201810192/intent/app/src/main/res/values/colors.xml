@@ -1,0 +1,18 @@
+<resources>
+
+
+    <color name="background_color">#F9F9F9</color>
+    <color name="primary_text">#333333</color>
+    <color name="button_text">#FFFFFF</color>
+    <color name="button_background">#4CAF50</color>
+    <color name="circle_color">#FF5722</color>
+    <color name="primary_t">#FF0000</color> <!-- النص بالأحمر -->
+    <color name="button_color">#FF0000</color> <!-- لون الأزرار بالأحمر -->
+    <color name="shadow_color">#66000000</color> <!-- ظل خفيف للنص -->
+    <color name="google_red">#DB4437</color>
+    <color name="google_green">#0F9D58</color>
+    <color name="google_blue">#4285F4</color>
+    <color name="google_yellow">#F4B400</color>
+
+
+</resources>
